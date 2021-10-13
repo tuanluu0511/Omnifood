@@ -58,6 +58,31 @@ body {
 /***********************/
 /* GENERAL REUSABLE COMPONENTS */
 /***********************/
+
+.container {
+  /* 1140px */
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  gap: 9.6rem;
+}
+
+.gird--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.gird--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.gird--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
 .heading-primary {
   font-size: 5.2rem;
   font-weight: 700;
@@ -227,3 +252,7 @@ body {
   color: #cf711f;
   font-weight: 700;
 }
+
+/***********************/
+/* HOW IT WORKS SECIION */
+/***********************/
