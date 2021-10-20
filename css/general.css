@@ -80,15 +80,20 @@ body {
   column-gap: 6.4rem;
 }
 
-.gird--2-cols {
+/* Add space between 2 grid elements */
+.grid:not(:last-child) {
+  margin-bottom: 9.6rem;
+}
+
+.grid--2-cols {
   grid-template-columns: repeat(2, 1fr);
 }
 
-.gird--3-cols {
+.grid--3-cols {
   grid-template-columns: repeat(3, 1fr);
 }
 
-.gird--4-cols {
+.grid--4-cols {
   grid-template-columns: repeat(4, 1fr);
 }
 
