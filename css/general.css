@@ -187,6 +187,26 @@ body {
   border-bottom: 1px solid transparent;
 }
 
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.list-item {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.list-icon {
+  height: 3rem;
+  width: 3rem;
+  color: #f59f00;
+}
+
 /* HELPER/STTING CLASSES */
 
 .margin-right-sm {
